@@ -17,6 +17,13 @@
     <li><strong>Copies:</strong> {{ num_instances }}</li>
     <li><strong>Copies available:</strong> {{ num_instances_available }}</li>
     <li><strong>Authors:</strong> {{ num_authors }}</li>
+    <li><strong>Libros de fantasía:</strong> {{ num_fantasia }}</li>
+    <li><strong>Libros con la palabra ejemplo:</strong> {{ num_ejemplo_books }}</li>
   </ul>
+
+  <p>
+    You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+  </p>
+  
 {% endblock %}
 
